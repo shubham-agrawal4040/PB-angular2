@@ -1,0 +1,40 @@
+main {
+	padding: 30px 20px;
+	section {
+		margin-bottom: 40px;
+		h3 {
+			margin-bottom: 20px;
+			font-family: 'Roboto Medium';
+		}
+		h2 {
+			font-family: 'Roboto Medium';
+		}
+		.recommended-wrapper {
+			margin: 0 -20px;
+			padding: 20px;
+			background: #FAFAFA;
+			.img-wrap {
+				height: 175px;
+			}
+		}
+	}
+}
+
+.img-wrap {
+	background: $gray;
+}
+.project-wrap {
+	h5 {
+		margin-bottom: 15px;
+	}
+	.project-img-cont {
+		>div {
+			width: 110px;
+			padding-right: 10px;
+			>div {
+				height: 110px;
+				background: $gray;
+			}
+		}
+	}
+}
