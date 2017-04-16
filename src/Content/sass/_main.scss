@@ -8,6 +8,9 @@ main {
 		}
 		h2 {
 			font-family: 'Roboto Medium';
+			font-size: 1.8em;
+			line-height: 1.2em;
+			color: $gray-font;
 		}
 		.recommended-wrapper {
 			margin: 0 -20px;
