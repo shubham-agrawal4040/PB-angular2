@@ -1,118 +1,68 @@
 <app-header></app-header>
 <main>
-  <!-- Top Section -->
-  <section class="recommended-section">
-    <h3>Recommended for you based on ‘Photography 101’</h3>
-    <div class="recommended-wrapper">
-      <div class="row">
-        <div class="col-xs-3 pos-relative">
-          <div class="img-wrap"></div>
-          <div class="article-tag-wrap pos-absolute">
-            <div class="article-tag">Photogrpahy</div>
-          </div>
-        </div>
-        <div class="col-xs-5">
-          <article>
-            <h2>From Capture to Print: Getting Started</h2>
-            <div class="article-author clearfix">
-              <img class="pull-left author-img" src="../Content/img/profile.jpg">
-              <div class="pull-left">Leah Carlston</div>
-            </div>
-            <div class="article-list clearfix">
-              <div class="article-list-item">$40</div>
-              <div class="article-list-item">8 classes</div>
-            </div>
-            <div class="article-comments clearfix">
-              <div class="pull-left">
-                <div class="author-comment-img-wrap pull-left">
-                  <div class="pull-left author-comment-img" *ngFor="let tweet of [1,2,3,4];  let i=index">
-                    <img src="../Content/img/profile.jpg">
-                  </div>
+    <!-- Top Section -->
+    <section class="recommended-section">
+        <h3>Recommended for you based on ‘Photography 101’</h3>
+        <div class="recommended-wrapper">
+            <div class="row">
+                <div class="col-xs-3 pos-relative">
+                    <div class="img-wrap"></div>
+                    <div class="article-tag-wrap pos-absolute">
+                        <div class="article-tag">Photogrpahy</div>
+                    </div>
                 </div>
-                <div class="pull-left">+123 enrolled</div>
-              </div>
-              <div class="pull-right">
-                <div class="article-action-wrap pull-left">
-                  <i class="material-icons pull-left">thumb_up</i>
-                  <div class="pull-left">126</div>
+                <div class="col-xs-5">
+                    <article>
+                        <h2>From Capture to Print: Getting Started</h2>
+                        <div class="article-author clearfix">
+                            <img class="pull-left author-img" src="../Content/img/profile.jpg">
+                            <div class="pull-left">Leah Carlston</div>
+                        </div>
+                        <div class="article-list clearfix">
+                            <div class="article-list-item">$40</div>
+                            <div class="article-list-item">8 classes</div>
+                        </div>
+                        <action-article></action-article>
+                    </article>
                 </div>
-                <div class="article-action-wrap pull-left">
-                  <i class="material-icons pull-left">share</i>
-                  <div class="pull-left">50</div>
+                <div class="col-xs-4 project-wrap">
+                    <h5 class="text-uppercase font-bold">Community Projects</h5>
+                    <div class="clearfix project-img-cont">
+                        <div class="pull-left">
+                            <div></div>
+                        </div>
+                        <div class="pull-left">
+                            <div></div>
+                        </div>
+                        <div class="pull-left">
+                            <div></div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </article>
         </div>
-        <div class="col-xs-4 project-wrap">
-          <h5 class="text-uppercase font-bold">Community Projects</h5>
-          <div class="clearfix project-img-cont">
-            <div class="pull-left">
-              <div></div>
-            </div>
-            <div class="pull-left">
-              <div></div>
-            </div>
-            <div class="pull-left">
-              <div></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section>
-    <h3>Workshops that you should check out</h3>
-    <div class="row">
-      <article class="col-xs-6">
+    </section>
+    <section>
+        <h3>Workshops that you should check out</h3>
         <div class="row">
-          <div class="col-xs-3">
-            <div class="">
-              <div class="img-wrap"></div>
-              <div class="article-tag-wrap">
-                <div class="article-tag">Photogrpahy</div>
-              </div>
+            <div class="col-xs-6">
+                <workshop-article></workshop-article>
             </div>
-            <div class="article-date"></div>
-          </div>
-          <div class="col-xs-9">
-            <h2>The Art of Desinging in Collections: Make a Surface Pattern Collection</h2>
-            <div class="article-author">
-              <div class="pull-left">by Leah Carlston</div>
+            <div class="col-xs-6">
+                <workshop-article></workshop-article>
             </div>
-          </div>
         </div>
-      </article>
-      <article class="col-xs-6">
-        <div class="row">
-          <div class="col-xs-3">
-            <div class="">
-              <div class="img-wrap"></div>
-              <div class="article-tag-wrap">
-                <div class="article-tag">JavaScript</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-9">
-            <h2>Designing Focal Point Prints: Design 3 Patterns in 3 Weeks</h2>
-            <div class="article-author">
-              <div class="pull-left">by Leah Carlston</div>
-            </div>
-          </div>
-        </div>
-      </article>
-    </div>
-  </section>
-  <section>
-    <h3>Schedule a private session with an expert</h3>
-  </section>
-  <section>
-    <h3>Challenges in the Community ‘Outdoor Photography’</h3>
-  </section>
-  <section>
-    <h3>Live Community Streams based on ‘Design’</h3>
-  </section>
-  <section>
-    <h3>Projects looking for Collaborators in ‘Photography Lovers in Connecticut</h3>
-  </section>
+    </section>
+    <section>
+        <h3>Schedule a private session with an expert</h3>
+    </section>
+    <section>
+        <h3>Challenges in the Community ‘Outdoor Photography’</h3>
+    </section>
+    <section>
+        <h3>Live Community Streams based on ‘Design’</h3>
+    </section>
+    <section>
+        <h3>Projects looking for Collaborators in ‘Photography Lovers in Connecticut</h3>
+    </section>
 </main>
